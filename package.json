@@ -1,0 +1,24 @@
+{
+  "name": "tiqah-foundation",
+  "version": "0.1.0",
+  "description": "Tiqah Foundation is an education agency operating in Morocco that facilitates intermediary services connecting Turkish Universities with Moroccan Students.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "AmineHCM",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "next": "13.4.10",
+    "postcss": "8.4.26",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3"
+  }
+}

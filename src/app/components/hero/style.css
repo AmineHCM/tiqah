@@ -1,0 +1,11 @@
+.hero {
+    background-image: url('/assets/photos/study-abroad.jpg');
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay {
+    overflow: hidden;
+    background-color: #12365888;
+}
