@@ -1,7 +1,7 @@
-import { Founders } from "./components/Founders";
-import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
-import { Services } from "./components/Services";
+import { Founders } from "./components/Founders/Founders";
+import { Hero } from "./components/Hero/Hero";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Services } from "./components/Services/Services";
 
 export default function Home() {
   return (
