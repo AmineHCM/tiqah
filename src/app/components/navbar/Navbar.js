@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Navbar() {
   return (
     <header class="text-white bg-[--tiqah-blue]">
