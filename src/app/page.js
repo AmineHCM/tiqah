@@ -1,8 +1,6 @@
-import Navbar from "./components/Navbar/Navbar.js";
-import Hero from "./components/Hero/Hero.js";
-import Founders from "./components/Founders/Founders.js";
-import Services from "./components/Services/Services.js";
-
+import { Founders } from "./components/founders/Founders";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
 
 export default function Home() {
   return (
@@ -12,7 +10,6 @@ export default function Home() {
         <Hero />
       </div>
       <Founders />
-      <Services />
     </div>
   );
 };
