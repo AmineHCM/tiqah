@@ -1,6 +1,7 @@
-import { Founders } from "./components/founders/Founders";
-import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+import { Founders } from "./components/Founders";
+import { Hero } from "./components/Hero";
+import { Navbar } from "./components/Navbar";
+import { Services } from "./components/Services";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
       </div>
       <Founders />
+      <Services />
     </div>
   );
 };

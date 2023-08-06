@@ -7,25 +7,14 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --tiqah-blue: #123559;
+  --tiqah-lightBlue: #246cb4;
   --tiqah-gold: #d8b873;
-  --tiqah-lightPink: #efdfef;
+  --tiqah-lightGold: #ffe7b4;
   --tiqah-darkPink: #92278f;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 255, 255, 255;
-    --background-end-rgb: 255, 255, 255;
-  }
+  --tiqah-lightPink: #efdfef;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin:0;
+  padding:0;
 }

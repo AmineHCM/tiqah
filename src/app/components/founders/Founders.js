@@ -3,7 +3,7 @@ import './style.css';
 
 export function Founders() {
     return (
-      <section class="bg-slate-100 text-zinc-800 h-full py-16">
+      <section class="bg-slate-100 text-zinc-800 h-full py-16 border-b-4 border-b-[--tiqah-blue]">
         <div class="container mx-auto flex h-full p-4 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center md:pt-0">
             <h1 class="md:text-5xl md:w-full text-4xl text-[--tiqah-blue] font-bold my-4 md:leading-normal">Get to know the founders</h1>

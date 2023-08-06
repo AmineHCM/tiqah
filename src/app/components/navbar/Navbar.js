@@ -1,4 +1,4 @@
-export default function Navbar() {
+export function Navbar() {
   return (
     <header class="text-white bg-[--tiqah-blue]">
       <div class="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
