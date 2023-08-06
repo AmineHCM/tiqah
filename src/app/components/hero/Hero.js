@@ -13,7 +13,7 @@ export default function Hero() {
               <hr class="border-white w-4/5"/>
 
               <p class="leading-relaxed md:leading-loose md:text-lg w-full text-justify my-5">
-                The idea began when we saw that many students feel lost in their
+                The idea began when we saw that many students were lost in their
                 search for a university in Turkey. We decided to help them by
                 providing them with all the information they need to choose
                 the best university for them.
@@ -29,6 +29,6 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </section>
+      </section>            
     );
   };
