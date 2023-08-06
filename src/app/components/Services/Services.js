@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import './style.css';
-import { ServiceList } from './ServiceList';
+import ServiceList from './ServicesList';
 
 export default function Services() {
     return (

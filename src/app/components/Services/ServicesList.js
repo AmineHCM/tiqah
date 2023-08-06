@@ -3,7 +3,7 @@ import { Job } from "./icons/Job";
 import { Phone } from "./icons/Phone";
 import { Platform } from "./icons/Platform";
 
-export function ServiceList() {
+export default function ServiceList() {
     return (
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2">
