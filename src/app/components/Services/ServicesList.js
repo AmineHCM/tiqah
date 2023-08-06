@@ -1,7 +1,7 @@
-import { AcademicHat } from "./icons/AcademicHat";
-import { Job } from "./icons/Job";
-import { Phone } from "./icons/Phone";
-import { Platform } from "./icons/Platform";
+import { AcademicHat } from "./icons/AcademicHat.js";
+import { Job } from "./icons/Job.js";
+import { Phone } from "./icons/Phone.js";
+import { Platform } from "./icons/Platform.js";
 
 export default function ServiceList() {
     return (
