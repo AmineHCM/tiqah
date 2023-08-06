@@ -3,7 +3,7 @@ export default function Navbar() {
     <header class="text-white bg-[--tiqah-blue]">
       <div class="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center">
         <a class="flex title-font items-center mb-4 md:mb-0">
-          <img src="/logo.png" className="w-32 cursor-pointer "/>
+          <Image src="/logo.png" className="w-32 cursor-pointer" width="128" height="128"/>
         </a>
         <nav class="mx-auto flex flex-wrap font-medium items-center justify-center md:mr-5">
           {/* <a href="/" class="mr-5 px-3 py-1 border-b-2 border-transparent hover:border-b-2 hover:border-b-[--tiqah-gold]">Home</a> */}
