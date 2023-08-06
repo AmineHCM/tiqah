@@ -1,7 +1,7 @@
-import Founders from "./components/Founders/Founders";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
+import Founders from "./components/Founders/Founders.js";
+import Hero from "./components/Hero/Hero.js";
+import Navbar from "./components/Navbar/Navbar.js";
+import Services from "./components/Services/Services.js";
 
 export default function Home() {
   return (
