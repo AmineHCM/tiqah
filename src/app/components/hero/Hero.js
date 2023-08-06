@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import './style.css';
 
-export function Hero() {
+export default function Hero() {
     return (
       <section class="hero relative text-white h-full border-b-4 border-[--tiqah-gold]">
         <div className="overlay h-full">

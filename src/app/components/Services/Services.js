@@ -2,7 +2,7 @@ import Image from 'next/image';
 import './style.css';
 import { ServiceList } from './ServiceList';
 
-export function Services() {
+export default function Services() {
     return (
       <section class="bg-slate-100 text-zinc-800 h-full py-16 border-b-4 border-b-[--tiqah-gold]">
         <div class="container mx-auto flex h-full p-4 md:flex-row flex-col items-center">
