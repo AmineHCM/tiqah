@@ -1,8 +1,8 @@
-import Contact from "./components/contact/contact";
-import Founders from "./components/founders/Founders";
-import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import Hero from "./components/hero/Hero";
+import Founders from "./components/founders/Founders";
 import Services from "./components/services/Services";
+import Contact from "./components/contact/Contact";
 
 export default function Home() {
   return (
