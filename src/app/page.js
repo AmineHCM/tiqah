@@ -1,15 +1,17 @@
-import { Founders } from "./components/Founders/Founders";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
+import Founders from "./components/founders/Founders";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
+import Services from "./components/services/Services";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div class="flex flex-col h-screen">
+      <div className="flex flex-col h-screen">
         <Navbar />
         <Hero />
       </div>
       <Founders />
+      <Services />
     </div>
   );
 };
