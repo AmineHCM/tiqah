@@ -1,6 +1,6 @@
-import { Founders } from "./components/founders/Founders";
-import Hero from "./components/hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+import { Founders } from "./components/Founders/Founders";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   return (
