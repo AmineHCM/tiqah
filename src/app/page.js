@@ -1,3 +1,4 @@
+import Contact from "./components/contact/contact";
 import Founders from "./components/founders/Founders";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <Founders />
       <Services />
+      <Contact />
     </div>
   );
 };
