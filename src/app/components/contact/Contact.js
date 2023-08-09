@@ -3,7 +3,9 @@ export default function Contact() {
     <section className="text-slate-100 bg-[--tiqah-blue]">
       <div className="container px-5 py-16 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
-          <h1 className="sm:text-5xl text-3xl font-bold mb-5 text-[--tiqah-gold]">Contact Us</h1>
+          <h1 className="sm:text-5xl text-3xl font-bold mb-5 text-[--tiqah-gold]">
+            Contact Us
+          </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Feel free to contact us if you have any questions {":)"}
           </p>
@@ -54,13 +56,8 @@ export default function Contact() {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t border-zinc-200 text-center">
-              <a className="text-[--tiqah-gold]">contact@tiqahfondation.com</a>
-              <p className="leading-normal my-5">
-                777 Lot. Al Waha
-                <br />
-                Errachidia, Morocco
-              </p>
-              <span className="inline-flex">
+              <p className="text-[--tiqah-gold]">contact@tiqahfondation.com</p>
+              <p className="inline-flex mt-5">
                 <a className="text-white">
                   <svg
                     fill="currentColor"
@@ -106,7 +103,28 @@ export default function Contact() {
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                   </svg>
                 </a>
-              </span>
+              </p>
+              <p className="leading-normal my-5 flex justify-center">
+                Made with
+                <span className="mx-2 text-red-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-5 h-5"
+                  >
+                    <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" />
+                  </svg>
+                </span>
+                by
+                <a
+                  className="font-bold text-[--tiqah-gold] mx-2"
+                  href="https://www.devhcm.com"
+                  target="_blank"
+                >
+                  DEVHCM
+                </a>
+              </p>
             </div>
           </div>
         </div>
