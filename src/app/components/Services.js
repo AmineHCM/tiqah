@@ -9,9 +9,9 @@ export default function Services() {
           <Image
             src="/assets/free-consultation.jpg"
             className="rounded-xl shadow-lg"
-            alt="ALBARAE BOURKADI"
-            width="500"
-            height="300"
+            alt="Free Consultation"
+            width="854"
+            height="571"
           />
         </div>
         <div className="lg:flex-grow md:w-3/5 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center md:pt-0">
