@@ -1,19 +1,15 @@
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import Founders from "./components/founders/Founders";
-import Services from "./components/services/Services";
-import Contact from "./components/contact/Contact";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import ApplyNow from "./components/ApplyNow";
+import Mission from "./components/Mission";
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <div className="flex flex-col h-screen">
-        <Navbar />
-        <Hero />
-      </div>
-      <Founders />
+      <Hero />
+      <Mission />
       <Services />
-      <Contact />
+      <ApplyNow />
     </div>
   );
 }

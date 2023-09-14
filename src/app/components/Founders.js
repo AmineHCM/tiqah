@@ -38,7 +38,7 @@ export default function Founders() {
                 Student Consultant in Turkey
               </p>
               <p className="leading-relaxed text-sm mb-4">
-                More than 5 years of experience in studies consulting in Turkey.
+                More than 6 years of experience in studies consulting in Turkey.
               </p>
             </div>
           </div>

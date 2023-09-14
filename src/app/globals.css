@@ -7,7 +7,27 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --tiqah-blue: #123559;
+  --tiqah-lightBlue: #4ca6ff;
   --tiqah-gold: #d8b873;
-  --tiqah-lightPink: #efdfef;
+  --tiqah-lightGold: #ffffee;
   --tiqah-darkPink: #92278f;
+  --tiqah-lightPink: #efdfef;
+}
+
+.navbar {
+  height: 10vh;
+}
+
+.hero {
+  background-image: url("/assets/study-abroad.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /*overflow: hidden;*/
+  height: 90vh;
+}
+
+.overlay {
+  overflow: hidden;
+  background-color: #12365888;
 }
